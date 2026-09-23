@@ -1,0 +1,124 @@
+#!/usr/bin/env python3
+"""oasis - content CLI for theoasisproject.eu
+
+  ./oasis pages                     list every page with its URL
+  ./oasis text <slug>               every text block on that page, with its id
+  ./oasis show <id>                 the raw HTML of one element
+  ./oasis set <id> <file|->         replace that element's HTML (- reads stdin)
+  ./oasis find "<text>"             where a phrase appears across the whole site
+  ./oasis replace "<old>" "<new>"   swap a phrase everywhere (asks first)
+  ./oasis image <id> <file.jpg>     swap the photo of an image element
+  ./oasis images <slug>             image elements on a page, with their files
+
+Every command edits site-data.json. Run ./oasis build (or python3 build.py)
+afterwards to regenerate site/.
+"""
+import json, os, re, shutil, sys, subprocess, html as H
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+DB   = os.path.join(ROOT, "site-data.json")
+
+def load(): return json.load(open(DB, encoding="utf-8"))
+def save(d):
+    shutil.copy(DB, DB + ".bak")
+    json.dump(d, open(DB, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+    print("saved (previous version kept as site-data.json.bak)")
+
+def page_by_slug(d, slug):
+    slug = slug.strip("/") or "home"
+    for pid, p in d["pages"].items():
+        if p.get("slug") == slug: return pid, p
+    sys.exit(f"no page '{slug}' - run ./oasis pages")
+
+def plain(html_s, n=90):
+    t = re.sub(r"<[^>]+>", " ", html_s or "")
+    t = H.unescape(re.sub(r"\s+", " ", t)).strip()
+    return (t[:n] + "...") if len(t) > n else t
+
+def cmd_pages(d, *a):
+    for pid, p in sorted(d["pages"].items(), key=lambda x: x[1].get("slug", "")):
+        if not p.get("blocks"): continue
+        url = "/" if p["slug"] == "home" else "/" + p["slug"]
+        print(f'{url:36} {p.get("name",""):34} {len(p["blocks"])} blocks')
+
+def _els(d, slug, kind):
+    pid, p = page_by_slug(d, slug)
+    for bid in p.get("blocks", []):
+        for eid in (d["blocks"].get(bid, {}).get("components") or []):
+            e = d["elements"].get(eid, {})
+            if e.get("type") == kind: yield eid, e
+
+def cmd_text(d, slug=None, *a):
+    if not slug: sys.exit("usage: ./oasis text <slug>")
+    for eid, e in _els(d, slug, "GridTextBox"):
+        print(f'{eid:14} {plain(e.get("content"))}')
+
+def cmd_images(d, slug=None, *a):
+    if not slug: sys.exit("usage: ./oasis images <slug>")
+    for eid, e in _els(d, slug, "GridImage"):
+        print(f'{eid:14} {(e.get("settings") or {}).get("path","")}')
+
+def cmd_show(d, eid=None, *a):
+    e = d["elements"].get(eid or "") or sys.exit("unknown element id")
+    print(e.get("content") or json.dumps(e.get("settings"), indent=1, ensure_ascii=False))
+
+def cmd_set(d, eid=None, src=None, *a):
+    if not eid or not src: sys.exit("usage: ./oasis set <id> <file|->")
+    e = d["elements"].get(eid) or sys.exit("unknown element id")
+    new = sys.stdin.read() if src == "-" else open(src, encoding="utf-8").read()
+    print("old:", plain(e.get("content")))
+    e["content"] = new.strip()
+    print("new:", plain(e["content"]))
+    save(d)
+
+def cmd_find(d, needle=None, *a):
+    if not needle: sys.exit('usage: ./oasis find "<text>"')
+    low = needle.lower(); hits = 0
+    where = {eid: [] for eid in d["elements"]}
+    for pid, p in d["pages"].items():
+        for bid in p.get("blocks") or []:
+            for eid in (d["blocks"].get(bid, {}).get("components") or []):
+                where.setdefault(eid, []).append(p.get("slug"))
+    for eid, e in d["elements"].items():
+        blob = (e.get("content") or "") + " " + json.dumps(e.get("settings") or {}, ensure_ascii=False)
+        if low in blob.lower():
+            hits += 1
+            print(f'{eid:14} {"/".join(where.get(eid) or ["?"]):26} {plain(e.get("content")) or e.get("type")}')
+    print(f"-- {hits} element(s)")
+
+def cmd_replace(d, old=None, new=None, *a):
+    if old is None or new is None: sys.exit('usage: ./oasis replace "<old>" "<new>"')
+    n = 0
+    for e in d["elements"].values():
+        if e.get("content") and old in e["content"]:
+            e["content"] = e["content"].replace(old, new); n += 1
+        for key in ("content",):
+            pass
+    if not n: sys.exit("no match - try ./oasis find first")
+    print(f'replacing "{old}" -> "{new}" in {n} element(s)')
+    if input("confirm? [y/N] ").strip().lower() != "y": sys.exit("cancelled")
+    save(d)
+
+def cmd_image(d, eid=None, f=None, *a):
+    if not eid or not f: sys.exit("usage: ./oasis image <id> <file>")
+    e = d["elements"].get(eid) or sys.exit("unknown element id")
+    if e.get("type") != "GridImage": sys.exit(f"{eid} is a {e.get('type')}, not an image")
+    name = os.path.basename(f)
+    dest = os.path.join(ROOT, "site", "assets", name)
+    if os.path.abspath(f) != os.path.abspath(dest): shutil.copy(f, dest)
+    print("old:", (e.get("settings") or {}).get("path"))
+    e.setdefault("settings", {})["path"] = name
+    e["settings"]["origin"] = "assets"
+    print("new:", name)
+    save(d)
+
+def cmd_build(d, *a):
+    subprocess.run([sys.executable, os.path.join(ROOT, "build.py")], check=True)
+
+CMDS = {k[4:]: v for k, v in list(globals().items()) if k.startswith("cmd_")}
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2 or sys.argv[1] in ("-h", "--help", "help"):
+        print(__doc__); sys.exit(0)
+    fn = CMDS.get(sys.argv[1]) or sys.exit(f"unknown command '{sys.argv[1]}' - ./oasis help")
+    fn(load(), *sys.argv[2:])

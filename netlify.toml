@@ -1,0 +1,33 @@
+# The site in site/ is pre-built and committed, so Netlify only has to publish it.
+# Building here would need Pillow (used to measure contrast), which Netlify's
+# Python image does not carry - keep the build local and the deploy dumb.
+[build]
+  publish = "site"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# the old Hostinger pages keep working
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301

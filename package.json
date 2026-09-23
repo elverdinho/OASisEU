@@ -1,0 +1,12 @@
+{
+  "name": "oasis-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "theoasisproject.eu - self-hosted rebuild (static generator + form backend)",
+  "scripts": {
+    "build": "python3 build.py",
+    "start": "node server.js",
+    "dev": "python3 build.py && node server.js"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://theoasisproject.eu/sitemap.xml

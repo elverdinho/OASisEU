@@ -1,0 +1,7 @@
+_mirror/
+_shots/
+_unused/
+data/
+node_modules/
+*.log
+site-data.json.bak

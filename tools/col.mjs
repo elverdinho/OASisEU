@@ -1,0 +1,10 @@
+import {chromium} from 'playwright';
+const b=await chromium.launch();
+const ctx=await b.newContext({viewport:{width:1440,height:1700}});
+const p=await ctx.newPage();
+await p.goto('http://127.0.0.1:4173/cc-second-call',{waitUntil:'networkidle'});
+await p.evaluate(async()=>{for(let y=0;y<2000;y+=300){scrollTo(0,y);await new Promise(r=>setTimeout(r,60));}scrollTo(0,0);});
+await p.waitForTimeout(800);
+const blk=await p.evaluate(()=>{const s=[...document.querySelectorAll('section.block')][1];const r=s.getBoundingClientRect();return Math.round(r.top+scrollY);});
+await p.screenshot({path:'_shots/rightcol.png',clip:{x:700,y:blk+260,width:540,height:1320}});
+await b.close();

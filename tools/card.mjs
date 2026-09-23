@@ -1,0 +1,10 @@
+import {chromium} from 'playwright';
+const b=await chromium.launch();
+const ctx=await b.newContext({viewport:{width:1440,height:1000}});
+const p=await ctx.newPage();
+await p.goto('http://127.0.0.1:4173/calls-for-artists-oasis',{waitUntil:'networkidle',timeout:60000});
+await p.evaluate(async()=>{for(let y=0;y<2200;y+=300){scrollTo(0,y);await new Promise(r=>setTimeout(r,80));}});
+await p.evaluate(()=>scrollTo(0,150));await p.waitForTimeout(900);
+await p.screenshot({path:'_shots/card-zoom.png',clip:{x:90,y:330,width:480,height:330}});
+console.log(JSON.stringify(await p.evaluate(()=>[...document.querySelectorAll('.on-photo')].map(e=>e.textContent.trim().slice(0,52))),null,0));
+await b.close();
