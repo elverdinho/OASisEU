@@ -131,6 +131,27 @@ success message — nothing is lost.
 
 ## Deploying
 
+Live preview: **https://oasis-project-eu.netlify.app**
+
+The site is published on Netlify from the pre-built `site/` folder. To ship a change:
+
+```bash
+./oasis replace "..." "..."      # or edit site-data.json
+python3 build.py
+npx netlify-cli deploy --dir=site --prod
+```
+
+The five forms run on Netlify Forms: no server, no database, and every submission
+is emailed to info@theoasisproject.eu (six notification hooks, one per form) while
+also staying in the dashboard under Forms. The free tier covers 100 submissions a
+month.
+
+Moving the domain across is a separate, reversible step: see **MIGRATION.md**, and
+run `./verify-migration.sh` afterwards. The short version is that the project
+mailbox stays on Hostinger and the nameservers never move, so email cannot break.
+
+### Old notes
+
 **Static host (Netlify, Cloudflare Pages, any web server)** — publish `site/`.
 `netlify.toml` is already set up. URLs stay extensionless (`/about-us-oasis`),
 exactly as on the old site, so inbound links and search rankings carry over.

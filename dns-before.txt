@@ -1,0 +1,31 @@
+# Stato DNS di theoasisproject.eu prima della migrazione
+# rilevato il 2026-09-23 15:38
+
+## NS
+ns1.dns-parking.com.
+ns2.dns-parking.com.
+
+## A
+89.116.109.223
+195.200.9.210
+
+## AAAA
+2a02:4780:25:3e1c:a65f:18a5:fab1:bd38
+2a02:4780:26:3cfb:875:d023:b9f8:32cc
+
+## MX
+10 mx2.hostinger.com.
+5 mx1.hostinger.com.
+
+## TXT
+"google-site-verification=vyy4cmBh7k7FpqaNKGxVuEjBtR8PIxkPdoXzULWh-fE"
+"v=spf1 include:_spf.mail.hostinger.com ~all"
+
+## CNAME
+
+## www
+www.theoasisproject.eu.cdn.hstgr.net.
+89.116.109.87
+91.108.103.153
+
+## DKIM (selettori comuni Hostinger)
