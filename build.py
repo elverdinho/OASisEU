@@ -358,9 +358,9 @@ def parse_call(caption):
         country = parts[-1] if parts else "Other"
     return country, key, (m.group(0) if m else "")
 
-def collect_cards(block):
+def collect_cards(block, extra=()):
     """Pair each photo with the caption sitting on it, newest deadline first."""
-    comps = comps_pre(block)
+    comps = list(comps_pre(block)) + [x for x in extra if x not in comps_pre(block)]
     cards = []
     for eid in comps:
         e = ELS.get(eid) or {}
@@ -375,11 +375,72 @@ def collect_cards(block):
                       "caption": e.get("content") or "", "href": href, "attrs": attrs,
                       "country": country, "key": key, "deadline": deadline,
                       "eid": eid, "iid": pid_})
-    cards.sort(key=lambda c: c["key"], reverse=True)
-    return cards
+    # la stessa call puo avere una card in home e una nella pagina Calls:
+    # in archivio ce ne va una sola, quella che punta alla stessa pagina
+    uniche, viste = [], set()
+    for c in cards:
+        firma = c["href"] or _plain(c["caption"])
+        if firma in viste: continue
+        viste.add(firma); uniche.append(c)
+    uniche.sort(key=lambda c: c["key"], reverse=True)
+    return uniche
 
-def render_card_grid(block, title_ids):
-    cards = collect_cards(block)
+
+# ---------------------------------------------------------------- scadenze
+# I blocchi che ospitano le open call: uno in home, uno nella pagina Calls.
+OPEN_CALL_BLOCKS = ("zh9ZGj", "ai-HHWs9D")
+# Le colonne su cui si allineano le card quando una scade e le altre scalano.
+OPEN_CARD_COLS = (0, 431, 863)
+
+def _oggi():
+    import datetime as _dt
+    return _dt.date.today().strftime("%Y%m%d")
+
+def _coppie_card(block):
+    """(id_testo, id_foto, chiave_data) per ogni card del blocco."""
+    comps = comps_pre(block)
+    out = []
+    for eid in comps:
+        e = ELS.get(eid) or {}
+        if e.get("type") != "GridTextBox": continue
+        photo = photo_under(eid, comps)
+        if photo is None: continue
+        iid = next((i for i in comps if ELS.get(i) is photo), None)
+        _, key, _ = parse_call(e.get("content"))
+        out.append((eid, iid, key))
+    return out
+
+def calcola_scadute():
+    """Card la cui deadline e passata: escono dalle open call ed entrano in archivio.
+
+    La griglia d archivio ordina gia per data decrescente, quindi una card
+    archiviata si colloca da sola al posto giusto senza toccare nulla a mano."""
+    oggi = _oggi()
+    scadute, vive = set(), {}
+    for bid in OPEN_CALL_BLOCKS:
+        b = BLOCKS.get(bid)
+        if not b: continue
+        rimaste = []
+        for eid, iid, key in _coppie_card(b):
+            if key != "00000000" and key < oggi:
+                scadute.add(eid); scadute.add(iid)
+            else:
+                rimaste.append((eid, iid))
+        vive[bid] = rimaste
+    # le card ancora aperte scalano a sinistra, senza buchi
+    for bid, rimaste in vive.items():
+        for i, (eid, iid) in enumerate(rimaste):
+            if i >= len(OPEN_CARD_COLS): break
+            col = OPEN_CARD_COLS[i]
+            for x in (eid, iid):
+                box = (ELS.get(x) or {}).get("desktop")
+                if box: box["left"] = col
+    return scadute
+
+SCADUTE = set()
+
+def render_card_grid(block, title_ids, extra=()):
+    cards = collect_cards(block, extra)
     if len(cards) < 4: return None
     counts = {}
     for c in cards: counts[c["country"]] = counts.get(c["country"], 0) + 1
@@ -521,12 +582,14 @@ def render_block(bid, form_counter, is_first=False):
     zmap  = {eid: i + 1 for i, eid in enumerate(order)}
     grid_html, grid_cls = "", ""
     if b.get("htmlId") == "archivedcalls":
-        cards = collect_cards(b)
+        cards = collect_cards(b, SCADUTE)
         used = {c["eid"] for c in cards} | {c["iid"] for c in cards}
-        grid_html = render_card_grid(b, used) or ""
+        grid_html = render_card_grid(b, used, SCADUTE) or ""
         if grid_html:
             comps = [e for e in comps if e not in used]
             grid_cls = " has-grid"
+    if bid in OPEN_CALL_BLOCKS:
+        comps = [e for e in comps if e not in SCADUTE]
     kids  = "".join(render_element(eid, zmap.get(eid, 1), form_counter, comps) for eid in comps)
     kids += grid_html
     cls = f"blk-{bid.replace('-','_')}"
@@ -752,6 +815,10 @@ def render_page(pid):
 """
 
 def main():
+    global SCADUTE
+    SCADUTE = calcola_scadute()
+    if SCADUTE:
+        print(f"call scadute spostate in archivio: {len(SCADUTE)//2}")
     os.makedirs(OUT, exist_ok=True)
     css = global_css()
     # element positioning must come after the per-block <style> tags -> keep in styles.css

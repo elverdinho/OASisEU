@@ -611,6 +611,28 @@
     "ccBody2"
    ],
    "hiddenSlots": []
+  },
+  "kib2ndX9": {
+   "meta": {
+    "title": "Artistic Intelligence – Nature and Technology | KIBLA OASis Residency 2026",
+    "keywords": [
+     "art residency",
+     "open call",
+     "KIBLA",
+     "Maribor",
+     "Slovenia"
+    ],
+    "description": "Open call for 2 artists for the OASis Residency at KIBLA, Maribor, Slovenia, 19-27 November 2026. Applications close 19 October 2026.",
+    "focusKeyword": "art residency"
+   },
+   "name": "Kibla Second Call",
+   "slug": "kibla-second-call",
+   "type": "default",
+   "blocks": [
+    "kibHead2",
+    "kibBody2"
+   ],
+   "hiddenSlots": []
   }
  },
  "blocks": {
@@ -1166,7 +1188,7 @@
   "ai-HHWs9D": {
    "type": "BlockLayout",
    "mobile": {
-    "minHeight": 1528
+    "minHeight": 2180
    },
    "desktop": {
     "minHeight": 996
@@ -1182,7 +1204,9 @@
     "zSlmEi",
     "z3yNAa",
     "ccCardImg",
-    "ccCardTxt"
+    "ccCardTxt",
+    "kibCardImg",
+    "kibCardTxt"
    ],
    "attachment": "fixed",
    "background": {
@@ -1207,7 +1231,9 @@
     "zSlmEi",
     "z3yNAa",
     "ccCardImg",
-    "ccCardTxt"
+    "ccCardTxt",
+    "kibCardImg",
+    "kibCardTxt"
    ],
    "initialBlockId": "zWdgII"
   },
@@ -2051,7 +2077,7 @@
   "zh9ZGj": {
    "type": "BlockLayout",
    "mobile": {
-    "minHeight": 900
+    "minHeight": 1170
    },
    "desktop": {
     "minHeight": 1106
@@ -2068,7 +2094,9 @@
     "zyBN0A",
     "zpO09I",
     "zk0UXS",
-    "z3Ijyw"
+    "z3Ijyw",
+    "kibHomeImg",
+    "kibHomeTxt"
    ],
    "attachment": "fixed",
    "background": {
@@ -2094,7 +2122,9 @@
     "zyBN0A",
     "zpO09I",
     "zk0UXS",
-    "z3Ijyw"
+    "z3Ijyw",
+    "kibHomeImg",
+    "kibHomeTxt"
    ],
    "initialBlockId": "ai-HHWs9D"
   },
@@ -3278,6 +3308,68 @@
     "ccPhoto2g"
    ],
    "initialBlockId": "zwaaLr"
+  },
+  "kibHead2": {
+   "type": "BlockLayout",
+   "mobile": {
+    "minHeight": 20
+   },
+   "desktop": {
+    "minHeight": 20
+   },
+   "settings": {
+    "styles": {
+     "block-padding": "16px 0 16px 0",
+     "m-block-padding": "16px"
+    }
+   },
+   "zindexes": [],
+   "background": {
+    "path": "screenshot-2025-08-27-alle-23.54.41-AzGMv5vglGCkoxp3.png",
+    "color": "rgb(255, 255, 255)",
+    "image": "https://assets.zyrosite.com/mxBMqQrL4JTa2LLe/screenshot-2025-08-27-alle-23.54.41-AzGMv5vglGCkoxp3.png",
+    "origin": "assets",
+    "current": "image",
+    "overlay-opacity": "0.55"
+   },
+   "components": []
+  },
+  "kibBody2": {
+   "type": "BlockLayout",
+   "mobile": {
+    "minHeight": 1711
+   },
+   "desktop": {
+    "minHeight": 1561
+   },
+   "settings": {
+    "styles": {
+     "block-padding": "16px 0 16px 0",
+     "m-block-padding": "16px"
+    }
+   },
+   "zindexes": [
+    "kibTesto2",
+    "kibFoto2b",
+    "kibFoto2a",
+    "kibFoto2c",
+    "kibFoto2d",
+    "kibLogo2",
+    "kibBtn2"
+   ],
+   "background": {
+    "color": "rgb(255, 255, 255)",
+    "current": "image"
+   },
+   "components": [
+    "kibTesto2",
+    "kibFoto2b",
+    "kibFoto2a",
+    "kibFoto2c",
+    "kibFoto2d",
+    "kibLogo2",
+    "kibBtn2"
+   ]
   }
  },
  "elements": {
@@ -6179,7 +6271,7 @@
     "width": 328,
     "height": 1332
    },
-   "content": "<h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 22px; --fontSizeDesktop: 24px\"><strong>Deep Work Week on Spatial Practices  -  City Mine(d) - Bruxelles  </strong><br>Application Deadline 19/12/2025</h3><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 21px\" class=\"body\">City Mine(d) launches a call for contributors for a <strong>Deep Work Week on Spatial Practices</strong>, a residency that explores <span style=\"font-weight: 700\"><strong>how urban space can be reclaimed and managed outside the logics of market speculation and state control.</strong></span> Across Europe, access to space—whether for working, gathering, rehearsing, organising, or simply existing—is increasingly contested. Vacant buildings, informal ateliers, community-run rooms, shared desks, and self-organised venues often represent the last frontiers where collective imagination and civic experimentation can take shape. <br>This residency aims to question, map, and re-imagine these practices through artistic, architectural, and research-driven approaches. </p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 20px\" class=\"body\">From <strong>22 February to 1 March 2026</strong>, City Mine(d) will bring together <strong>5 international and 3 Brussels-based artists, architects, researchers, thinkers, and practitioners</strong> to reflect on how non-market, non-state spaces can be designed, financed, governed, and accessed. Participants will work intensively throughout the week, contribute to a <strong>three-day participatory planning workshop</strong>, and share work-in-progress materials during a <strong>public event on 28 February 2026</strong>.</p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 19px\" class=\"body\">International contributors should have a strong interest in vacant or underused buildings—either through hands-on practice or academic research—and be able to produce within one week a mapping (geographical, conceptual, visual, sonic, narrative or digital) that addresses the themes of the residency. <br><br>A good working knowledge of <strong>French and English</strong> and full availability in Brussels from <strong>21 to 28 February 2026</strong> are required.</p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 11px\" class=\"body\">Selected international participants will receive <strong>€1200 gross artist fee</strong>, a <strong>€300 contribution to travel and accommodation</strong>, and the opportunity to work closely with Brussels-based communities, organisations, and fellow contributors.</p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 17px\" class=\"body\"><strong>Timeline:</strong><br>– Call closes <strong>19 December 2025</strong><br>– Selected applicants notified <strong>before 12 January 2026</strong><br>– Short online interview and one or two preparatory sessions for invited participants<br>– Residency starts <strong>21 February 2026</strong></p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px\" class=\"body\"><strong>How to apply:</strong><br>Send your application to <strong><a href=\"mailto:oasiscall@citymined.org\">oasiscall@citymined.org</a></strong> including:<br>– A <strong>statement of intent</strong> (max 2 pages) outlining your motivation, your experience with re-using vacant buildings, your background in working with local communities and co-creation, and your initial ideas for an artistic output mapping these themes.<br>– A <strong>portfolio, website or relevant links</strong> showcasing previous work.</p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px\" class=\"body\"></p>",
+   "content": "<h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 18px; --fontSizeDesktop: 24px; margin-bottom: 14px;\"><strong>Deep Work Week on Spatial Practices - Brussels (Belgium) - Deadline 19/12/2025</strong></h3><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 21px\" class=\"body\">City Mine(d) launches a call for contributors for a <strong>Deep Work Week on Spatial Practices</strong>, a residency that explores <span style=\"font-weight: 700\"><strong>how urban space can be reclaimed and managed outside the logics of market speculation and state control.</strong></span> Across Europe, access to space—whether for working, gathering, rehearsing, organising, or simply existing—is increasingly contested. Vacant buildings, informal ateliers, community-run rooms, shared desks, and self-organised venues often represent the last frontiers where collective imagination and civic experimentation can take shape. <br>This residency aims to question, map, and re-imagine these practices through artistic, architectural, and research-driven approaches. </p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 20px\" class=\"body\">From <strong>22 February to 1 March 2026</strong>, City Mine(d) will bring together <strong>5 international and 3 Brussels-based artists, architects, researchers, thinkers, and practitioners</strong> to reflect on how non-market, non-state spaces can be designed, financed, governed, and accessed. Participants will work intensively throughout the week, contribute to a <strong>three-day participatory planning workshop</strong>, and share work-in-progress materials during a <strong>public event on 28 February 2026</strong>.</p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 19px\" class=\"body\">International contributors should have a strong interest in vacant or underused buildings—either through hands-on practice or academic research—and be able to produce within one week a mapping (geographical, conceptual, visual, sonic, narrative or digital) that addresses the themes of the residency. <br><br>A good working knowledge of <strong>French and English</strong> and full availability in Brussels from <strong>21 to 28 February 2026</strong> are required.</p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 11px\" class=\"body\">Selected international participants will receive <strong>€1200 gross artist fee</strong>, a <strong>€300 contribution to travel and accommodation</strong>, and the opportunity to work closely with Brussels-based communities, organisations, and fellow contributors.</p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 17px\" class=\"body\"><strong>Timeline:</strong><br>– Call closes <strong>19 December 2025</strong><br>– Selected applicants notified <strong>before 12 January 2026</strong><br>– Short online interview and one or two preparatory sessions for invited participants<br>– Residency starts <strong>21 February 2026</strong></p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px\" class=\"body\"><strong>How to apply:</strong><br>Send your application to <strong><a href=\"mailto:oasiscall@citymined.org\">oasiscall@citymined.org</a></strong> including:<br>– A <strong>statement of intent</strong> (max 2 pages) outlining your motivation, your experience with re-using vacant buildings, your background in working with local communities and co-creation, and your initial ideas for an artistic output mapping these themes.<br>– A <strong>portfolio, website or relevant links</strong> showcasing previous work.</p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px\" class=\"body\"></p>",
    "desktop": {
     "top": 80,
     "left": 0,
@@ -6843,7 +6935,7 @@
     "width": 328,
     "height": 1238
    },
-   "content": "<h3 dir=\"auto\" style=\"color: rgb(26, 26, 26); --lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">During autumn 2025, <strong>Fondazione Campania Welfare (FCW)</strong> is launching the first round of art residency as part of the <strong>OASis </strong> project. The residency will take place at <strong>Parco San Laise</strong>, a former NATO base in Naples currently being transformed into a public cultural hub, currently hosting dozens of NGOs working in music, theatre, cinema, and visual arts, offering artists access to an active creative ecosystem. <br>The residency will focus on <strong>co-creation with local communities</strong> and the Foundation’s beneficiaries (children, youth, and vulnerable groups), aiming to revitalize the park through participatory art, design, and storytelling. <br>FCW is looking for <strong>8 artists</strong> (5 international and 3 locals – based in Campania) from the following fields:</span></h3><ul dir=\"auto\"><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Visual arts (painting, sculpture, tattoo, mixed media)</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Functional design (muralism, street art, carpentry, metalwork and others)</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Performing/visual storytelling (theatre, videomaking, photo etc..)</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Music, songwriting, or creative writing</span><br>        </p></li></ul><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 17px; margin-bottom: 8px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>Requirements and added value for international artists</strong>:</span></p><ul dir=\"auto\"><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Fluency in </span><span style=\"font-family: Inter\\ Tight; font-weight: 700\"><strong>English</strong></span><span style=\"font-family: Inter\\ Tight; font-weight: 400\"> (mandatory)</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 700\"><strong>Availability for a 10–21 day</strong></span><span style=\"font-family: Inter\\ Tight; font-weight: 400\"> residency between 22/09 and 28/11 2025. (mandatory)</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Knowledge of <strong>Italian</strong> will be strongly valued, while <strong>Spanish</strong> language skills will be considered a plus due to linguistic proximity</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 700\"><strong>Experience</strong></span><span style=\"font-family: Inter\\ Tight; font-weight: 400\"> in community-based/art education projects will be strongly valued</span></p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"></p></li></ul><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 17px; margin-bottom: 8px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>What we offer:</strong></span></p><ul dir=\"auto\"><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Average €1300 gross artist fee</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Travel, accommodation, and meals covered</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Private or shared art studio accessible every day from 9 am to 9 pm.</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Artistic and production materials and technical support</span></p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"></p></li></ul><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 17px; margin-bottom: 8px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>How to apply:</strong></span></p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Send your application to <strong><a href=\"mailto:fcw.oasis@gmail.com\">fcw.oasis@gmail.com,</a></strong> including the following:</span></p><ul dir=\"auto\"><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>Statement of intent</strong> (max 2 pages) including your motivation to participate, how you propose to engage with the local community, your ideas for artistic projects (including possible materials or production needs) and your relevant skills, methods, and approaches for community-based co-creation</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>Portfolio/website/social links</strong> to showcase your work and previous artistic projects</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>Short bio or CV</strong></span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>One clear photo</strong> with visible face (for communication use)</span></p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"></p></li></ul><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>Evaluation will focus on</strong> </span><span style=\"color: rgb(254, 92, 54); font-family: Inter\\ Tight; font-weight: 400\">*</span><span style=\"font-family: Inter\\ Tight; font-weight: 400\">artistic merit, the feasibility and impact of the co-creation strategy, and the applicant’s ability to connect and engage with local communities.</span><br><br><span style=\"color: rgb(254, 92, 54); font-family: Inter\\ Tight; font-weight: 400\">*</span>Given the unexpectedly high number of applications, <span style=\"font-weight: 700\"><strong>priority</strong></span> will be given to proposals that combine artistic quality and strong co-creation potential with the opportunity to generate meaningful impact through the residency. In line with <span style=\"font-weight: 700\"><strong>OASis’ mission to remove barriers to the art world</strong></span>, we aim to support artists for whom this experience could represent a concrete step forward, rather than those with already established careers and extensive residency experience.</p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">The </span><span style=\"font-family: Inter\\ Tight; font-weight: 700\"><strong>application phase will be open until the 11/07/2025</strong></span><span style=\"font-family: Inter\\ Tight; font-weight: 400\">. </span><span style=\"font-family: Inter\\ Tight; font-weight: 700\"><strong>Results are expected to be announced by 21/07/2025. </strong></span><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Shortlisted candidates may be invited to a brief online interview to assess language skills, discuss their approach to co-creation with local communities and availability to join the art residency.</span></p><p dir=\"auto\" style=\"--lineHeightMobile: 1.5; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 700\"><strong>For more information please write to <a href=\"mailto:fcw.oasis@gmail.com\">fcw.oasis@gmail.com</a></strong></span><span style=\"font-family: Inter\\ Tight; font-weight: 400\">, stating your questions and concerns.</span></p>",
+   "content": "<h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 18px; --fontSizeDesktop: 24px; margin-bottom: 14px;\"><strong>OASis In the Park - Naples (Italy) - Deadline 11/07/2025</strong></h3><ul dir=\"auto\"><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Visual arts (painting, sculpture, tattoo, mixed media)</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Functional design (muralism, street art, carpentry, metalwork and others)</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Performing/visual storytelling (theatre, videomaking, photo etc..)</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Music, songwriting, or creative writing</span><br>        </p></li></ul><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 17px; margin-bottom: 8px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>Requirements and added value for international artists</strong>:</span></p><ul dir=\"auto\"><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Fluency in </span><span style=\"font-family: Inter\\ Tight; font-weight: 700\"><strong>English</strong></span><span style=\"font-family: Inter\\ Tight; font-weight: 400\"> (mandatory)</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 700\"><strong>Availability for a 10–21 day</strong></span><span style=\"font-family: Inter\\ Tight; font-weight: 400\"> residency between 22/09 and 28/11 2025. (mandatory)</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Knowledge of <strong>Italian</strong> will be strongly valued, while <strong>Spanish</strong> language skills will be considered a plus due to linguistic proximity</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 700\"><strong>Experience</strong></span><span style=\"font-family: Inter\\ Tight; font-weight: 400\"> in community-based/art education projects will be strongly valued</span></p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"></p></li></ul><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 17px; margin-bottom: 8px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>What we offer:</strong></span></p><ul dir=\"auto\"><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Average €1300 gross artist fee</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Travel, accommodation, and meals covered</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Private or shared art studio accessible every day from 9 am to 9 pm.</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Artistic and production materials and technical support</span></p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"></p></li></ul><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 17px; margin-bottom: 8px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>How to apply:</strong></span></p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Send your application to <strong><a href=\"mailto:fcw.oasis@gmail.com\">fcw.oasis@gmail.com,</a></strong> including the following:</span></p><ul dir=\"auto\"><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>Statement of intent</strong> (max 2 pages) including your motivation to participate, how you propose to engage with the local community, your ideas for artistic projects (including possible materials or production needs) and your relevant skills, methods, and approaches for community-based co-creation</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>Portfolio/website/social links</strong> to showcase your work and previous artistic projects</span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>Short bio or CV</strong></span></p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>One clear photo</strong> with visible face (for communication use)</span></p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"></p></li></ul><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\"><strong>Evaluation will focus on</strong> </span><span style=\"color: rgb(254, 92, 54); font-family: Inter\\ Tight; font-weight: 400\">*</span><span style=\"font-family: Inter\\ Tight; font-weight: 400\">artistic merit, the feasibility and impact of the co-creation strategy, and the applicant’s ability to connect and engage with local communities.</span><br><br><span style=\"color: rgb(254, 92, 54); font-family: Inter\\ Tight; font-weight: 400\">*</span>Given the unexpectedly high number of applications, <span style=\"font-weight: 700\"><strong>priority</strong></span> will be given to proposals that combine artistic quality and strong co-creation potential with the opportunity to generate meaningful impact through the residency. In line with <span style=\"font-weight: 700\"><strong>OASis’ mission to remove barriers to the art world</strong></span>, we aim to support artists for whom this experience could represent a concrete step forward, rather than those with already established careers and extensive residency experience.</p><p dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 400\">The </span><span style=\"font-family: Inter\\ Tight; font-weight: 700\"><strong>application phase will be open until the 11/07/2025</strong></span><span style=\"font-family: Inter\\ Tight; font-weight: 400\">. </span><span style=\"font-family: Inter\\ Tight; font-weight: 700\"><strong>Results are expected to be announced by 21/07/2025. </strong></span><span style=\"font-family: Inter\\ Tight; font-weight: 400\">Shortlisted candidates may be invited to a brief online interview to assess language skills, discuss their approach to co-creation with local communities and availability to join the art residency.</span></p><p dir=\"auto\" style=\"--lineHeightMobile: 1.5; --lineHeightDesktop: 1.45; --fontSizeMobile: 12px; --fontSizeDesktop: 16px\" class=\"body\"><span style=\"font-family: Inter\\ Tight; font-weight: 700\"><strong>For more information please write to <a href=\"mailto:fcw.oasis@gmail.com\">fcw.oasis@gmail.com</a></strong></span><span style=\"font-family: Inter\\ Tight; font-weight: 400\">, stating your questions and concerns.</span></p>",
    "desktop": {
     "top": 120,
     "left": 0,
@@ -8628,7 +8720,7 @@
     "width": 328,
     "height": 125
    },
-   "content": "<h3 dir=\"auto\" style=\"color: rgb(26, 26, 26);\">Gerador - Portugal<br>Application Deadline - 24/05/2026</h3>",
+   "content": "<h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 18px; --fontSizeDesktop: 24px; margin-bottom: 14px;\"><strong>Gerador - Portugal - Deadline 24/05/2026</strong></h3>",
    "desktop": {
     "top": 64,
     "left": 0,
@@ -9158,7 +9250,7 @@
    "type": "GridForm",
    "formId": "Subscribe form 1",
    "mobile": {
-    "top": 550,
+    "top": 815,
     "left": 0,
     "width": 328,
     "height": 172
@@ -9361,7 +9453,7 @@
   "zoeVNM": {
    "type": "GridTextBox",
    "mobile": {
-    "top": 320,
+    "top": 585,
     "left": 0,
     "width": 328,
     "height": 196
@@ -9390,7 +9482,7 @@
   "zpO09I": {
    "type": "GridTextBox",
    "mobile": {
-    "top": 765,
+    "top": 1030,
     "left": 0,
     "width": 328,
     "height": 98
@@ -10093,7 +10185,7 @@
     "width": 328,
     "height": 1170
    },
-   "content": "<h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 24px; margin-bottom: 8px;\"><strong>Artistic Intelligence – Nature and Technology | KIBLA, Maribor, Slovenia | Autumn 2025</strong><br></h3><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --fontSizeMobile: 12px; margin-bottom: 8px;\"><strong>Deadline to apply: 26 September 2025</strong></p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --fontSizeMobile: 12px; margin-bottom: 8px;\"></p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\"><strong>Association for Culture and Education KIBLA (ACE KIBLA)</strong> is launching its first OASis Residency in Maribor, Slovenia, in <strong>autumn 2025</strong>, inviting <strong>4 international artists, researchers, and interdisciplinary practitioners.</strong></p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\">The residency will explore the intersection of <strong>nature, technology, and cultural/natural heritage</strong> in the Maribor region, engaging with themes such as ecology, energy, history, and the future. Artists are encouraged to work across analog and digital media – including AR, VR, XR, AI, visual arts, performance, music, literature, and community-based practices.</p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\">Residencies will take place at <strong>KIBLA PORTAL</strong> (a former textile factory turned cultural hub) and <strong>KIBLA2LAB</strong>, equipped with advanced XR, 3D scanning, and photogrammetry technologies. Participants will be encouraged to combine research, production, and artistic experimentation, involving the local community through interactive, participatory approaches.<br>   </p><h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\"><strong>Residency Dates</strong></h3><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\">Applicants must be based in EU Member States or Creative Europe eligible countries.</p><ul dir=\"auto\"><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>2–11 November 2025</strong></p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>12–21 November 2025</strong><br>    <br>     </p></li></ul><h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\"><strong>What We Offer</strong></h3><ul dir=\"auto\"><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>€1300 gross artist fee</strong></p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>Travel support up to €300</strong></p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>Accommodation in Maribor (private or shared)</strong></p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>Studio and workspace access</strong></p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>Curatorial and production support</strong></p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>Materials support (to be agreed in advance)</strong><br>      <br>   </p></li></ul><h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\"><strong>Eligibility &amp; Proposals</strong></h3><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\">We welcome proposals that:</p><ul dir=\"auto\"><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Address Maribor’s people, history, and social context</p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Show strong artistic originality and quality</p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Are research-driven within art and media culture</p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Engage with the local community<br>             <br>   </p></li></ul><h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\"><strong>How to Apply</strong></h3><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\">Send applications to <strong><a href=\"mailto:kibla@kibla.org\">kibla@kibla.org</a></strong> by <strong>26 September 2025</strong>, including:</p><ul dir=\"auto\"><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">CV or detailed bio</p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Portfolio or website link</p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Artistic proposal (max 300 words or 10-slide PDF) outlining: motivation, community engagement strategy, concept, materials, methods, and production needs</p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">(Optional) short video/audio (max 3 minutes)</p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">One clear photo (for communication purposes)<br>           </p></li></ul><h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\"><strong>Selection &amp; Results</strong></h3><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\">Applications will be evaluated on <strong>artistic quality, originality, feasibility, and co-creation strategies</strong>.<br>Shortlisted candidates may be invited for an online interview.<br>Final results will be announced by <strong>10 October 2025</strong>.</p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">📩 For questions write to <strong><a href=\"mailto:kibla@kibla.org\">kibla@kibla.org</a> </strong>or <span style=\"color: rgb(254, 92, 54);\"><strong><u><a target=\"_blank\" rel=\"nofollow\" href=\"http://www.kibla.org/en/news/news/?no_cache=1&amp;tx_ttnews%5Btt_news%5D=6486&amp;tx_ttnews%5BbackPid%5D=1&amp;cHash=c87ad277d3\" data-page-id=\"\" style=\"text-decoration: none;\">visit the website.</a></u></strong></span></p>",
+   "content": "<h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 18px; --fontSizeDesktop: 24px; margin-bottom: 14px;\"><strong>Artistic Intelligence – Nature and Technology - Maribor (Slovenia) - Deadline 26/09/2025</strong></h3><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --fontSizeMobile: 12px; margin-bottom: 8px;\"><strong>Deadline to apply: 26 September 2025</strong></p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --fontSizeMobile: 12px; margin-bottom: 8px;\"></p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\"><strong>Association for Culture and Education KIBLA (ACE KIBLA)</strong> is launching its first OASis Residency in Maribor, Slovenia, in <strong>autumn 2025</strong>, inviting <strong>4 international artists, researchers, and interdisciplinary practitioners.</strong></p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\">The residency will explore the intersection of <strong>nature, technology, and cultural/natural heritage</strong> in the Maribor region, engaging with themes such as ecology, energy, history, and the future. Artists are encouraged to work across analog and digital media – including AR, VR, XR, AI, visual arts, performance, music, literature, and community-based practices.</p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\">Residencies will take place at <strong>KIBLA PORTAL</strong> (a former textile factory turned cultural hub) and <strong>KIBLA2LAB</strong>, equipped with advanced XR, 3D scanning, and photogrammetry technologies. Participants will be encouraged to combine research, production, and artistic experimentation, involving the local community through interactive, participatory approaches.<br>   </p><h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\"><strong>Residency Dates</strong></h3><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\">Applicants must be based in EU Member States or Creative Europe eligible countries.</p><ul dir=\"auto\"><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>2–11 November 2025</strong></p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>12–21 November 2025</strong><br>    <br>     </p></li></ul><h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\"><strong>What We Offer</strong></h3><ul dir=\"auto\"><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>€1300 gross artist fee</strong></p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>Travel support up to €300</strong></p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>Accommodation in Maribor (private or shared)</strong></p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>Studio and workspace access</strong></p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>Curatorial and production support</strong></p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\"><strong>Materials support (to be agreed in advance)</strong><br>      <br>   </p></li></ul><h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\"><strong>Eligibility &amp; Proposals</strong></h3><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\">We welcome proposals that:</p><ul dir=\"auto\"><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Address Maribor’s people, history, and social context</p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Show strong artistic originality and quality</p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Are research-driven within art and media culture</p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Engage with the local community<br>             <br>   </p></li></ul><h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\"><strong>How to Apply</strong></h3><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\">Send applications to <strong><a href=\"mailto:kibla@kibla.org\">kibla@kibla.org</a></strong> by <strong>26 September 2025</strong>, including:</p><ul dir=\"auto\"><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">CV or detailed bio</p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Portfolio or website link</p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Artistic proposal (max 300 words or 10-slide PDF) outlining: motivation, community engagement strategy, concept, materials, methods, and production needs</p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">(Optional) short video/audio (max 3 minutes)</p></li><li><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">One clear photo (for communication purposes)<br>           </p></li></ul><h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\"><strong>Selection &amp; Results</strong></h3><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 8px;\">Applications will be evaluated on <strong>artistic quality, originality, feasibility, and co-creation strategies</strong>.<br>Shortlisted candidates may be invited for an online interview.<br>Final results will be announced by <strong>10 October 2025</strong>.</p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">📩 For questions write to <strong><a href=\"mailto:kibla@kibla.org\">kibla@kibla.org</a> </strong>or <span style=\"color: rgb(254, 92, 54);\"><strong><u><a target=\"_blank\" rel=\"nofollow\" href=\"http://www.kibla.org/en/news/news/?no_cache=1&amp;tx_ttnews%5Btt_news%5D=6486&amp;tx_ttnews%5BbackPid%5D=1&amp;cHash=c87ad277d3\" data-page-id=\"\" style=\"text-decoration: none;\">visit the website.</a></u></strong></span></p>",
    "desktop": {
     "top": 64,
     "left": 0,
@@ -10541,7 +10633,7 @@
     "width": 328,
     "height": 94
    },
-   "content": "<h1 style=\"color: rgb(40, 40, 40); --lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 24px; --fontSizeDesktop: 48px\" dir=\"auto\"><span style=\"font-family: Lato; font-weight: 700\"><strong>Disappearing Landscape - Slovakia - Deadline 30/03/2025</strong></span></h1>",
+   "content": "<h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 18px; --fontSizeDesktop: 24px; margin-bottom: 14px;\"><strong>Machaon International - Ganovce (Slovakia) - Deadline 30/03/2025</strong></h3><h1 style=\"color: rgb(40, 40, 40); --lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 24px; --fontSizeDesktop: 48px\" dir=\"auto\"><span style=\"font-family: Lato; font-weight: 700\"><strong>Disappearing Landscape - Slovakia - Deadline 30/03/2025</strong></span></h1>",
    "desktop": {
     "top": 53,
     "left": 0,
@@ -10954,7 +11046,7 @@
     "width": 328,
     "height": 94
    },
-   "content": "<h1 dir=\"auto\" style=\"color: rgb(40, 40, 40); --lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 24px; --fontSizeDesktop: 48px;\"><span style=\"font-family: Lato; font-weight: 700;\"><strong>Disappearing Landscape 2026 - Slovakia - </strong></span><strong>Application Deadline 22 /06 2026</strong></h1>",
+   "content": "<h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 18px; --fontSizeDesktop: 24px; margin-bottom: 14px;\"><strong>Disappearing Landscape 2026 - Slovakia - Deadline 22/06/2026</strong></h3><h1 dir=\"auto\" style=\"color: rgb(40, 40, 40); --lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 24px; --fontSizeDesktop: 48px;\"><span style=\"font-family: Lato; font-weight: 700;\"><strong>Disappearing Landscape 2026 - Slovakia - </strong></span><strong>Application Deadline 22 /06 2026</strong></h1>",
    "desktop": {
     "top": 24,
     "left": 0,
@@ -13511,7 +13603,7 @@
     "width": 328,
     "height": 100
    },
-   "content": "<h3 dir=\"auto\" style=\"color: rgb(51, 51, 51); --lineHeightMobile: 1.5; --lineHeightDesktop: 1.6; --fontSizeMobile: 20px; --fontSizeDesktop: 24px; margin-bottom: 10px;\">Instruments of Perception - One Caucasus - Georgia Application Deadline 20/09/2025</h3>",
+   "content": "<h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 18px; --fontSizeDesktop: 24px; margin-bottom: 14px;\"><strong>Instruments of Perception - Georgia - Deadline 20/09/2025</strong></h3>",
    "desktop": {
     "top": 33,
     "left": 0,
@@ -13997,7 +14089,7 @@
     "width": 328,
     "height": 94
    },
-   "content": "<h2 style=\"color: rgb(51, 51, 51); --lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 24px; --fontSizeDesktop: 32px; margin-bottom: 0px\" dir=\"auto\">One Caucasus Music Academy - Mestia (Georgia) - Deadline 18/07/2025</h2>",
+   "content": "<h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 18px; --fontSizeDesktop: 24px; margin-bottom: 14px;\"><strong>One Caucasus Music Academy - Mestia (Georgia) - Deadline 18/07/2025</strong></h3><h2 style=\"color: rgb(51, 51, 51); --lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 24px; --fontSizeDesktop: 32px; margin-bottom: 0px\" dir=\"auto\">One Caucasus Music Academy - Mestia (Georgia) - Deadline 18/07/2025</h2>",
    "desktop": {
     "top": 37,
     "left": 0,
@@ -14161,7 +14253,7 @@
     "width": 328,
     "height": 1531
    },
-   "content": "<h3 dir=\"auto\" style=\"color: rgb(26, 26, 26); --lineHeightMobile: 1.6; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 14px\">Today Art Initiative (TAI) is pleased to announce an open call for international artists to participate in the first edition of the OASis Residency in Talin, Armenia, taking place in autumn 2025. <br>We invite 5 artists, researchers, and interdisciplinary practitioners working across ecology, visual culture, community practices, and traditional knowledge to explore the intersection of ecological memory, disappearing flora, and cultural heritage in the Aragatsotn region as part of the<u><a href=\"https://www.instagram.com/ruralartres/\" style=\"color: rgb(17, 17, 17); text-decoration: underline; transition: 0.31s\"> Rural Art Residency Armenia</a></u> program, launched in 2019.<br></h3><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\"><strong>🔍 Residency Concept</strong></p><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\">What happens when a landscape loses its colours? Talin, once rich in wildflowers, herbs, and traditional ecological knowledge, is now witnessing the quiet disappearance of these species, mirroring a broader erosion of cultural memory. Plants that were once central to healing, dyeing, food, and ritual are now endangered. Today, climate change, soil degradation, rural depopulation, and the decline of traditional crafts threaten both the plants and the knowledge they carry. <br>This residency invites participants to explore these vanishing elements through sensory engagement including textiles, sound, visual art (bio art, eco art, food based practices, street art, painting, installation, textile art, sculpture, and mixed media) and collaborative practices. In partnership with local communities, artists will reanimate these stories and reimagine new ways of preserving ecological and cultural memory.</p><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\"><strong>Two possible residency periods: 10–20 September 2025 </strong>or<strong> 22 September – 1 October 2025<br>    </strong></p><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 10px\" class=\"body\"><strong>📍 About the Location – Talin, Aragatsotn</strong></p><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\">Located at the foot of Mount Aragats, about 63 km from Yerevan, Talin is a historic town with deep-rooted traditions and ecological richness. Its landscapes ranging from steppe grasslands to volcanic soils, host endemic and culturally significant plants now at risk. The town is known for its 7th-century cathedral and a strong sense of rural resilience, making it an ideal place for artists interested in site-specific and community-based practice.<br>    </p><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\"><strong>TAI is Looking For Proposals That:</strong></p><ul dir=\"auto\"><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">Address ecology and disappearing flora of Aragatsotn</p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">Co-creation through community engagement or participatory practices</p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">Are site-specific or research-driven, rooted in local context</p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">Strong artistic quality and clear relevance to the theme<br>   </p></li></ul><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --fontSizeMobile: 14px; margin-bottom: 8px\" class=\"body\">💼 <strong>What We Offer</strong></p><ul dir=\"auto\"><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">€1300 gross artist fee</p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">Travel budget up to €300</p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">Accommodation in Talin (private or shared)</p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">Access to studio / workspace; curatorial support throughout the residency; materials and production support</p></li></ul><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --lineHeightDesktop: 1.3; --fontSizeDesktop: 16px\" class=\"body\"></p>",
+   "content": "<h3 dir=\"auto\" style=\"--lineHeightMobile: 1.3; --lineHeightDesktop: 1.3; --fontSizeMobile: 18px; --fontSizeDesktop: 24px; margin-bottom: 14px;\"><strong>Wild Nature – TAI - Talin (Armenia) - Deadline 17/08/2025</strong></h3><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\"><strong>🔍 Residency Concept</strong></p><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\">What happens when a landscape loses its colours? Talin, once rich in wildflowers, herbs, and traditional ecological knowledge, is now witnessing the quiet disappearance of these species, mirroring a broader erosion of cultural memory. Plants that were once central to healing, dyeing, food, and ritual are now endangered. Today, climate change, soil degradation, rural depopulation, and the decline of traditional crafts threaten both the plants and the knowledge they carry. <br>This residency invites participants to explore these vanishing elements through sensory engagement including textiles, sound, visual art (bio art, eco art, food based practices, street art, painting, installation, textile art, sculpture, and mixed media) and collaborative practices. In partnership with local communities, artists will reanimate these stories and reimagine new ways of preserving ecological and cultural memory.</p><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\"><strong>Two possible residency periods: 10–20 September 2025 </strong>or<strong> 22 September – 1 October 2025<br>    </strong></p><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 10px\" class=\"body\"><strong>📍 About the Location – Talin, Aragatsotn</strong></p><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\">Located at the foot of Mount Aragats, about 63 km from Yerevan, Talin is a historic town with deep-rooted traditions and ecological richness. Its landscapes ranging from steppe grasslands to volcanic soils, host endemic and culturally significant plants now at risk. The town is known for its 7th-century cathedral and a strong sense of rural resilience, making it an ideal place for artists interested in site-specific and community-based practice.<br>    </p><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --lineHeightDesktop: 1.3; --fontSizeMobile: 14px; --fontSizeDesktop: 16px; margin-bottom: 8px\" class=\"body\"><strong>TAI is Looking For Proposals That:</strong></p><ul dir=\"auto\"><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">Address ecology and disappearing flora of Aragatsotn</p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">Co-creation through community engagement or participatory practices</p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">Are site-specific or research-driven, rooted in local context</p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">Strong artistic quality and clear relevance to the theme<br>   </p></li></ul><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --fontSizeMobile: 14px; margin-bottom: 8px\" class=\"body\">💼 <strong>What We Offer</strong></p><ul dir=\"auto\"><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">€1300 gross artist fee</p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">Travel budget up to €300</p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">Accommodation in Talin (private or shared)</p></li><li><p dir=\"auto\" style=\"--lineHeightMobile: 1.6; --fontSizeMobile: 14px\" class=\"body\">Access to studio / workspace; curatorial support throughout the residency; materials and production support</p></li></ul><p dir=\"auto\" style=\"color: rgb(17, 17, 17); --lineHeightMobile: 1.6; --lineHeightDesktop: 1.3; --fontSizeDesktop: 16px\" class=\"body\"></p>",
    "desktop": {
     "top": 173,
     "left": 0,
@@ -14942,6 +15034,371 @@
    "initialElementId": "zhfR1W",
    "fullResolutionWidth": 1400,
    "fullResolutionHeight": 1050
+  },
+  "kibTesto2": {
+   "type": "GridTextBox",
+   "mobile": {
+    "top": 22,
+    "left": 0,
+    "width": 328,
+    "height": 1170
+   },
+   "content": "<h3 dir=\"auto\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 24px; margin-bottom: 18px;\"><strong>Artistic Intelligence – Nature and Technology - Maribor (Slovenia) - Deadline 19/10/2026</strong><br></h3><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 18px;\"><strong>Association for Culture and Education KIBLA (ACE KIBLA)</strong> opens its second OASis Residency in Maribor, Slovenia, and invites <strong>2 international artists, researchers and interdisciplinary practitioners</strong> to take part in autumn 2026.</p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 18px;\">The call is open to practitioners working across analog and digital media — audio and visual culture, fine art, performance, literature and theory — and to those whose work involves community practice. The residency looks at where nature and technology meet: augmented, virtual and mixed realities, artificial intelligence, and the cultural and natural heritage of the Maribor region, read through ecology, energy and the passage from its history to its future.</p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 18px;\">Work can move from analog to digital and back. Sound and vision, interactivity, audience participation and collaborative practice are all welcome, and artists are encouraged to keep their own poetics while letting the place, its people and its environment shape the outcome.</p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 18px;\"><strong>We are looking for proposals that:</strong></p><ul dir=\"auto\"><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Speak to the city, its people and its society.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Are artistically original and grounded in the local context.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Can be research-driven within art and media culture.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Carry a strong artistic quality and a voice of their own.</p></li></ul><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 18px;\"><strong>Residency period:</strong> 19–27 November 2026. Applicants must reside in an EU Member State or in a country eligible under the Creative Europe programme.</p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 18px;\"><strong>What we offer:</strong></p><ul dir=\"auto\"><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">An artist fee of <strong>€1.300</strong> gross.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">A travel budget of up to <strong>€300</strong>.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Accommodation in Maribor, in a private or shared room.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Access to studio and workspaces.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Curatorial support throughout the residency.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Materials and production support, agreed in advance.</p></li></ul><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 18px;\"><strong>How to apply.</strong> Send your materials to <strong>kibla@kibla.org</strong> by <strong>19 October 2026</strong>.</p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 18px;\"><strong>Your application must include:</strong></p><ul dir=\"auto\"><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">A CV or detailed bio, as a link or a PDF of no more than 10 MB.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">A portfolio or website.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">An artistic proposal — max. 300 words, or a PDF of up to 10 slides — covering your motivation, how you would engage the local community, your concept, materials and methods, and any production needs.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Optionally, a short video or audio piece of no more than three minutes.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">One clear photograph with a visible face, for communication purposes.</p></li></ul>",
+   "desktop": {
+    "top": 64,
+    "left": 0,
+    "width": 739,
+    "height": 1220
+   },
+   "settings": {
+    "styles": {
+     "text": "left",
+     "align": "flex-start",
+     "justify": "flex-start",
+     "m-element-margin": "0 0 16px 0"
+    }
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   }
+  },
+  "kibFoto2b": {
+   "rel": "nofollow",
+   "type": "GridImage",
+   "mobile": {
+    "top": 1216,
+    "left": 0,
+    "width": 328,
+    "height": 160
+   },
+   "desktop": {
+    "top": 504,
+    "left": 752,
+    "width": 472,
+    "height": 266
+   },
+   "settings": {
+    "alt": "",
+    "path": "screenshot-2025-08-28-alle-00.01.47-mePgj4aw7zHJQWDY.png",
+    "origin": "assets",
+    "styles": {
+     "align": "center",
+     "justify": "center",
+     "m-element-margin": "0 0 16px 0"
+    },
+    "clickAction": "none"
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "fullResolutionWidth": 1256,
+   "fullResolutionHeight": 886
+  },
+  "kibFoto2a": {
+   "rel": "nofollow",
+   "type": "GridImage",
+   "mobile": {
+    "top": 1384,
+    "left": 0,
+    "width": 164,
+    "height": 137
+   },
+   "desktop": {
+    "top": 198,
+    "left": 752,
+    "width": 472,
+    "height": 296
+   },
+   "settings": {
+    "alt": "",
+    "path": "screenshot-2025-08-27-alle-23.58.53-mk34XPEw5BSBwya2.png",
+    "origin": "assets",
+    "styles": {
+     "align": "center",
+     "justify": "center",
+     "m-element-margin": "0 0 16px 0"
+    },
+    "clickAction": "none"
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "fullResolutionWidth": 1252,
+   "fullResolutionHeight": 894
+  },
+  "kibFoto2c": {
+   "rel": "nofollow",
+   "type": "GridImage",
+   "mobile": {
+    "top": 1384,
+    "left": 170,
+    "width": 158,
+    "height": 137
+   },
+   "desktop": {
+    "top": 784,
+    "left": 752,
+    "width": 472,
+    "height": 248
+   },
+   "settings": {
+    "alt": "",
+    "path": "screenshot-2025-08-28-alle-00.00.01-Yan0GXn9G8sDkJl6.png",
+    "origin": "assets",
+    "styles": {
+     "align": "center",
+     "justify": "center",
+     "m-element-margin": "0 0 16px 0"
+    },
+    "clickAction": "none"
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "fullResolutionWidth": 1298,
+   "fullResolutionHeight": 926
+  },
+  "kibFoto2d": {
+   "rel": "nofollow",
+   "type": "GridImage",
+   "mobile": {
+    "top": 1528,
+    "left": 0,
+    "width": 328,
+    "height": 160
+   },
+   "desktop": {
+    "top": 1040,
+    "left": 752,
+    "width": 472,
+    "height": 241
+   },
+   "settings": {
+    "alt": "",
+    "path": "screenshot-2025-08-28-alle-00.06.36-Yle4X8D70VTkDeaJ.png",
+    "origin": "assets",
+    "styles": {
+     "align": "center",
+     "justify": "center",
+     "m-element-margin": "0 0 16px 0"
+    },
+    "clickAction": "none"
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "fullResolutionWidth": 1490,
+   "fullResolutionHeight": 896
+  },
+  "kibLogo2": {
+   "rel": "nofollow",
+   "type": "GridImage",
+   "mobile": {
+    "top": 152,
+    "left": 210,
+    "width": 109,
+    "height": 40
+   },
+   "desktop": {
+    "top": 56,
+    "left": 833,
+    "width": 321,
+    "height": 124
+   },
+   "settings": {
+    "alt": "",
+    "path": "loghi-oasis-21-YKbEyzOZg8fPalGv.svg",
+    "origin": "assets",
+    "styles": {
+     "align": "center",
+     "justify": "center",
+     "m-element-margin": "0 0 16px 0"
+    },
+    "clickAction": "none"
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "fullResolutionWidth": 1080,
+   "fullResolutionHeight": 1080
+  },
+  "kibBtn2": {
+   "rel": "nofollow",
+   "href": "http://www.kibla.org/en/coproductions-and-international-cooperation/current-projects/oasis/dogodki/open-call-for-artists-2026/",
+   "type": "GridButton",
+   "mobile": {
+    "top": 1726,
+    "left": 74,
+    "width": 180,
+    "height": 50,
+    "fontSize": 12
+   },
+   "target": "_blank",
+   "content": "Check the Call and Apply Now",
+   "desktop": {
+    "top": 1424,
+    "left": 481,
+    "width": 262,
+    "height": 60
+   },
+   "linkType": "external",
+   "settings": {
+    "type": "primary",
+    "styles": {
+     "align": "center",
+     "justify": "center",
+     "m-element-margin": "0 0 16px 0"
+    }
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "fontColor": "rgb(255, 255, 255)",
+   "borderColor": "rgb(0, 0, 0)",
+   "linkedPageId": "",
+   "fontColorHover": "rgb(255, 255, 255)",
+   "backgroundColor": "rgb(254, 92, 54)",
+   "borderColorHover": "rgb(0, 0, 0)",
+   "backgroundColorHover": "rgb(29, 30, 32)"
+  },
+  "kibCardImg": {
+   "rel": "",
+   "type": "GridImage",
+   "mobile": {
+    "top": 1820,
+    "left": 0,
+    "width": 328,
+    "height": 248
+   },
+   "desktop": {
+    "top": 152,
+    "left": 431,
+    "width": 361,
+    "height": 248,
+    "borderRadius": "8px"
+   },
+   "linkType": "page",
+   "settings": {
+    "alt": "KIBLA, Maribor",
+    "path": "kibla-2026-card.jpg",
+    "origin": "assets",
+    "styles": {
+     "align": "center",
+     "justify": "center",
+     "m-element-margin": "0 0 16px 0"
+    },
+    "clickAction": "link"
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "linkedPageId": "kib2ndX9",
+   "initialElementId": "zyhS8z",
+   "fullResolutionWidth": 722,
+   "fullResolutionHeight": 496
+  },
+  "kibCardTxt": {
+   "type": "GridTextBox",
+   "mobile": {
+    "top": 1984,
+    "left": 0,
+    "width": 328,
+    "height": 48
+   },
+   "content": "<h3 dir=\"auto\" style=\"color: rgb(255, 255, 255); --lineHeightMobile: 1.3; --lineHeightDesktop: 1.5; --fontSizeMobile: 18px; --fontSizeDesktop: 22px;\"><span style=\"font-weight: 400;\">KIBLA - Slovenia</span><br><span style=\"font-weight: 400;\">Application Deadline - 19/10/2026</span></h3>",
+   "desktop": {
+    "top": 333,
+    "left": 431,
+    "width": 361,
+    "height": 67
+   },
+   "settings": {
+    "styles": {
+     "text": "center",
+     "align": "flex-start",
+     "justify": "flex-start",
+     "m-element-margin": "0 0 16px 0"
+    }
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "backgroundColor": "rgba(255, 180, 74, 0.76)"
+  },
+  "kibHomeImg": {
+   "rel": "",
+   "type": "GridImage",
+   "mobile": {
+    "top": 320,
+    "left": 0,
+    "width": 328,
+    "height": 225
+   },
+   "desktop": {
+    "top": 144,
+    "left": 431,
+    "width": 361,
+    "height": 248,
+    "borderRadius": "8px"
+   },
+   "linkType": "page",
+   "settings": {
+    "alt": "KIBLA, Maribor",
+    "path": "kibla-2026-card.jpg",
+    "origin": "assets",
+    "styles": {
+     "align": "center",
+     "justify": "center",
+     "m-element-margin": "0 0 16px 0"
+    },
+    "clickAction": "link"
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "linkedPageId": "kib2ndX9",
+   "initialElementId": "zyhS8z",
+   "fullResolutionWidth": 722,
+   "fullResolutionHeight": 496
+  },
+  "kibHomeTxt": {
+   "type": "GridTextBox",
+   "mobile": {
+    "top": 484,
+    "left": 0,
+    "width": 328,
+    "height": 48
+   },
+   "content": "<h3 dir=\"auto\" style=\"color: rgb(255, 255, 255); --lineHeightMobile: 1.3; --lineHeightDesktop: 1.5; --fontSizeMobile: 18px; --fontSizeDesktop: 22px;\"><span style=\"font-weight: 400;\">KIBLA - Slovenia</span><br><span style=\"font-weight: 400;\">Application Deadline - 19/10/2026</span></h3>",
+   "desktop": {
+    "top": 325,
+    "left": 431,
+    "width": 361,
+    "height": 67
+   },
+   "settings": {
+    "styles": {
+     "text": "center",
+     "align": "flex-start",
+     "justify": "flex-start",
+     "m-element-margin": "0 0 16px 0"
+    }
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "backgroundColor": "rgba(255, 180, 74, 0.76)"
   }
  },
  "nav": [
@@ -15140,6 +15597,13 @@
    "subItems": [],
    "navItemId": "ccNav2",
    "linkedPageId": "cc2ndK7"
+  },
+  {
+   "isHidden": true,
+   "linkType": "Page",
+   "subItems": [],
+   "navItemId": "kibNav2",
+   "linkedPageId": "kib2ndX9"
   }
  ],
  "styles": {
