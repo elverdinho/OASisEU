@@ -7,6 +7,11 @@ on:
   schedule:
     - cron: "30 5 * * *"
   workflow_dispatch:        # per lanciarlo a mano quando serve
+    inputs:
+      pubblica_comunque:
+        description: "Pubblica anche se nessuna call e scaduta (per provare il token)"
+        type: boolean
+        default: false
 
 jobs:
   aggiorna:
@@ -33,7 +38,7 @@ jobs:
           fi
 
       - name: Pubblica su Netlify
-        if: steps.build.outputs.cambiato == 'si'
+        if: steps.build.outputs.cambiato == 'si' || inputs.pubblica_comunque
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         run: |
@@ -42,5 +47,5 @@ jobs:
             --message "archiviazione automatica delle call scadute"
 
       - name: Niente da fare
-        if: steps.build.outputs.cambiato == 'no'
+        if: steps.build.outputs.cambiato == 'no' && !inputs.pubblica_comunque
         run: echo "Nessuna call scaduta oggi."
