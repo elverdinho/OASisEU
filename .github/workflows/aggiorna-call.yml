@@ -1,0 +1,46 @@
+name: Aggiorna le call scadute
+
+# Ogni mattina alle 05:30 UTC (07:30 in Italia). Il generatore confronta la
+# deadline di ogni card con la data del giorno: quelle scadute escono dalle
+# open call ed entrano in archivio, gia ordinate per data.
+on:
+  schedule:
+    - cron: "30 5 * * *"
+  workflow_dispatch:        # per lanciarlo a mano quando serve
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installa Pillow
+        run: pip install --quiet Pillow
+
+      - name: Ricostruisci il sito
+        id: build
+        run: |
+          uscita=$(python3 build.py)
+          echo "$uscita"
+          if echo "$uscita" | grep -q "call scadute"; then
+            echo "cambiato=si" >> "$GITHUB_OUTPUT"
+          else
+            echo "cambiato=no" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Pubblica su Netlify
+        if: steps.build.outputs.cambiato == 'si'
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        run: |
+          npx -y netlify-cli@latest deploy --dir=site --prod \
+            --site=b62e6fd3-d064-4e4d-8447-79c9f01ccb96 \
+            --message "archiviazione automatica delle call scadute"
+
+      - name: Niente da fare
+        if: steps.build.outputs.cambiato == 'no'
+        run: echo "Nessuna call scaduta oggi."
