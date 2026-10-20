@@ -633,6 +633,29 @@
     "kibBody2"
    ],
    "hiddenSlots": []
+  },
+  "cm2ndX9": {
+   "meta": {
+    "title": "Makers, Educators, Community Organisers, Social Innovators | City Mine(d) OASis Call, Brussels 2026",
+    "keywords": [
+     "open call",
+     "residency",
+     "City Mine(d)",
+     "Brussels",
+     "Belgium",
+     "social innovation"
+    ],
+    "description": "Second OASis call by City Mine(d): 5 international makers, educators, community organisers and social innovators in Brussels, 9-20 November 2026. Applications close 18 October 2026.",
+    "focusKeyword": "open call"
+   },
+   "name": "City Mined Second Call",
+   "slug": "city-mined-second-call",
+   "type": "default",
+   "blocks": [
+    "cmHead2",
+    "cmBody2"
+   ],
+   "hiddenSlots": []
   }
  },
  "blocks": {
@@ -1206,7 +1229,9 @@
     "ccCardImg",
     "ccCardTxt",
     "kibCardImg",
-    "kibCardTxt"
+    "kibCardTxt",
+    "cmCardImg",
+    "cmCardTxt"
    ],
    "attachment": "fixed",
    "background": {
@@ -1233,7 +1258,9 @@
     "ccCardImg",
     "ccCardTxt",
     "kibCardImg",
-    "kibCardTxt"
+    "kibCardTxt",
+    "cmCardImg",
+    "cmCardTxt"
    ],
    "initialBlockId": "zWdgII"
   },
@@ -2096,7 +2123,9 @@
     "zk0UXS",
     "z3Ijyw",
     "kibHomeImg",
-    "kibHomeTxt"
+    "kibHomeTxt",
+    "cmHomeImg",
+    "cmHomeTxt"
    ],
    "attachment": "fixed",
    "background": {
@@ -2124,7 +2153,9 @@
     "zk0UXS",
     "z3Ijyw",
     "kibHomeImg",
-    "kibHomeTxt"
+    "kibHomeTxt",
+    "cmHomeImg",
+    "cmHomeTxt"
    ],
    "initialBlockId": "ai-HHWs9D"
   },
@@ -3369,6 +3400,66 @@
     "kibFoto2d",
     "kibLogo2",
     "kibBtn2"
+   ]
+  },
+  "cmHead2": {
+   "type": "BlockLayout",
+   "mobile": {
+    "minHeight": 20
+   },
+   "desktop": {
+    "minHeight": 20
+   },
+   "settings": {
+    "styles": {
+     "block-padding": "16px 0 16px 0",
+     "m-block-padding": "16px"
+    }
+   },
+   "zindexes": [],
+   "background": {
+    "path": "abstract-urban-theme-grunge-street-260nw-2627590235-qOJHJD6C4Z79mJrX.webp",
+    "color": "rgb(255, 255, 255)",
+    "image": "https://assets.zyrosite.com/mxBMqQrL4JTa2LLe/abstract-urban-theme-grunge-street-260nw-2627590235-qOJHJD6C4Z79mJrX.webp",
+    "origin": "assets",
+    "current": "image",
+    "overlay-opacity": "0.08"
+   },
+   "components": []
+  },
+  "cmBody2": {
+   "type": "BlockLayout",
+   "mobile": {
+    "minHeight": 2100
+   },
+   "desktop": {
+    "minHeight": 1400
+   },
+   "settings": {
+    "styles": {
+     "block-padding": "16px 0 16px 0",
+     "m-block-padding": "16px"
+    }
+   },
+   "zindexes": [
+    "cmTesto2",
+    "cmFoto2a",
+    "cmFoto2b",
+    "cmFoto2c",
+    "cmLogo2",
+    "cmBtn2"
+   ],
+   "background": {
+    "color": "rgb(255, 255, 255)",
+    "current": "image"
+   },
+   "components": [
+    "cmTesto2",
+    "cmFoto2a",
+    "cmFoto2b",
+    "cmFoto2c",
+    "cmLogo2",
+    "cmBtn2"
    ]
   }
  },
@@ -15399,6 +15490,338 @@
     "type": "global"
    },
    "backgroundColor": "rgba(255, 180, 74, 0.76)"
+  },
+  "cmTesto2": {
+   "type": "GridTextBox",
+   "mobile": {
+    "top": 22,
+    "left": 0,
+    "width": 328,
+    "height": 1050
+   },
+   "content": "<h3 dir=\"auto\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.3; --fontSizeMobile: 12px; --fontSizeDesktop: 24px; margin-bottom: 18px;\"><strong>Makers, Educators, Community Organisers, Social Innovators - Brussels (Belgium) - Deadline 18/10/2026</strong><br></h3><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 18px;\"><strong>City Mine(d)</strong> opens its second OASis call in Brussels, Belgium, and invites <strong>5 international makers, educators, community organisers and social innovators</strong> to work with a group of local contributors from <strong>9 to 20 November 2026</strong>.</p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 18px;\">Makers, educators, community organisers and social innovators form the human infrastructure behind resilient urban development. Makers prototype practical solutions that cities cannot always source top-down, while educators build the skills and civic awareness residents need to actively shape their environment.</p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 18px;\">Community organisers connect neighbourhoods and institutions, surfacing grassroots needs and holding power accountable, and social innovators tie it all together by designing new models — in housing, mobility and services — that make cities more adaptive and inclusive from the ground up.</p><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 18px;\"><strong>Requirements:</strong></p><ul dir=\"auto\"><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">An active practice as a maker, educator, community organiser or social innovator.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">A convincing argument in the Expression of Interest form provided.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Previous experience of working independently abroad on topics related to urban diversity, social innovation and participation.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">A good knowledge of French.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Availability in Brussels between <strong>9 and 21 November 2026</strong>.</p></li></ul><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 18px;\"><strong>What we offer:</strong></p><ul dir=\"auto\"><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">An artist fee of <strong>€1.200</strong> gross.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">A contribution of <strong>€300</strong> to travel and accommodation.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Networking with local communities, researchers and other contributors.</p></li></ul><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 18px;\"><strong>Timeline:</strong></p><ul dir=\"auto\"><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Call closes <strong>18 October 2026</strong>.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Applicants notified before <strong>31 October 2026</strong>; invited applicants will be contacted for an interview.</p></li><li style=\"color: rgb(29, 30, 32); margin-bottom: 9px\"><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px;\">Residency starts <strong>9 November 2026</strong>.</p></li></ul><p dir=\"auto\" class=\"body\" style=\"--lineHeightMobile: 1.55; --lineHeightDesktop: 1.62; --fontSizeMobile: 12px; --fontSizeDesktop: 16px; margin-bottom: 18px;\"><strong>How to apply.</strong> Fill out the <a href=\"https://forms.gle/pHJfk3XQWcfqoKTRA\" target=\"_blank\" rel=\"noopener\"><strong><u>Expression of Interest form</u></strong></a> by <strong>18 October 2026</strong>. For questions, write to <strong>oasis@citymined.org</strong>.</p>",
+   "desktop": {
+    "top": 64,
+    "left": 0,
+    "width": 739,
+    "height": 1010
+   },
+   "settings": {
+    "styles": {
+     "text": "left",
+     "align": "flex-start",
+     "justify": "flex-start",
+     "m-element-margin": "0 0 16px 0"
+    }
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   }
+  },
+  "cmLogo2": {
+   "rel": "nofollow",
+   "type": "GridImage",
+   "mobile": {
+    "top": 1080,
+    "left": 9,
+    "width": 309,
+    "height": 75
+   },
+   "desktop": {
+    "top": 64,
+    "left": 812,
+    "width": 400,
+    "height": 114
+   },
+   "settings": {
+    "alt": "City Mine(d) and OASis",
+    "path": "loghi-oasis-27-m7V5al6D16hjp7aa.svg",
+    "origin": "assets",
+    "styles": {
+     "align": "center",
+     "justify": "center",
+     "m-element-margin": "0 0 16px 0"
+    },
+    "clickAction": "none"
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "fullResolutionWidth": 1080,
+   "fullResolutionHeight": 1080
+  },
+  "cmFoto2a": {
+   "rel": "nofollow",
+   "type": "GridImage",
+   "mobile": {
+    "top": 1171,
+    "left": 0,
+    "width": 328,
+    "height": 246
+   },
+   "desktop": {
+    "top": 200,
+    "left": 812,
+    "width": 412,
+    "height": 309
+   },
+   "settings": {
+    "alt": "City Mine(d) soup machine at Flagey, Brussels",
+    "path": "citymined-2026-flagey.jpg",
+    "origin": "assets",
+    "styles": {
+     "align": "center",
+     "justify": "center",
+     "m-element-margin": "0 0 16px 0"
+    },
+    "clickAction": "none"
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "fullResolutionWidth": 1300,
+   "fullResolutionHeight": 975
+  },
+  "cmFoto2b": {
+   "rel": "nofollow",
+   "type": "GridImage",
+   "mobile": {
+    "top": 1433,
+    "left": 0,
+    "width": 328,
+    "height": 216
+   },
+   "desktop": {
+    "top": 525,
+    "left": 812,
+    "width": 412,
+    "height": 272
+   },
+   "settings": {
+    "alt": "Brussels mapping, City Mine(d)",
+    "path": "01-map-it2_groupejaune_lourd-9WwDb4aSsYjKym1K.jpg",
+    "origin": "assets",
+    "styles": {
+     "align": "center",
+     "justify": "center",
+     "m-element-margin": "0 0 16px 0"
+    },
+    "clickAction": "none"
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "fullResolutionWidth": 3252,
+   "fullResolutionHeight": 2160
+  },
+  "cmFoto2c": {
+   "rel": "nofollow",
+   "type": "GridImage",
+   "mobile": {
+    "top": 1665,
+    "left": 0,
+    "width": 328,
+    "height": 333
+   },
+   "desktop": {
+    "top": 813,
+    "left": 812,
+    "width": 412,
+    "height": 418
+   },
+   "settings": {
+    "alt": "City Mine(d), Brussels",
+    "path": "screenshot-2025-11-21-alle-21.21.44-006vadhJztmNzhZL.png",
+    "origin": "assets",
+    "styles": {
+     "align": "center",
+     "justify": "center",
+     "m-element-margin": "0 0 16px 0"
+    },
+    "clickAction": "none"
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "fullResolutionWidth": 833,
+   "fullResolutionHeight": 820
+  },
+  "cmBtn2": {
+   "rel": "nofollow",
+   "href": "https://forms.gle/pHJfk3XQWcfqoKTRA",
+   "type": "GridButton",
+   "mobile": {
+    "top": 2022,
+    "left": 74,
+    "width": 180,
+    "height": 50,
+    "fontSize": 12
+   },
+   "target": "_blank",
+   "content": "Fill out the Expression of Interest",
+   "desktop": {
+    "top": 1270,
+    "left": 481,
+    "width": 262,
+    "height": 60
+   },
+   "linkType": "external",
+   "settings": {
+    "type": "primary",
+    "styles": {
+     "align": "center",
+     "justify": "center",
+     "m-element-margin": "0 0 16px 0"
+    }
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "fontColor": "rgb(255, 255, 255)",
+   "borderColor": "rgb(0, 0, 0)",
+   "linkedPageId": "",
+   "fontColorHover": "rgb(255, 255, 255)",
+   "backgroundColor": "rgb(254, 92, 54)",
+   "borderColorHover": "rgb(0, 0, 0)",
+   "backgroundColorHover": "rgb(29, 30, 32)"
+  },
+  "cmHomeImg": {
+   "rel": "",
+   "type": "GridImage",
+   "mobile": {
+    "top": 320,
+    "left": 0,
+    "width": 328,
+    "height": 225
+   },
+   "desktop": {
+    "top": 144,
+    "left": 863,
+    "width": 361,
+    "height": 248,
+    "borderRadius": "8px"
+   },
+   "linkType": "page",
+   "settings": {
+    "alt": "City Mine(d), Brussels",
+    "path": "citymined-2026-card.jpg",
+    "origin": "assets",
+    "styles": {
+     "align": "center",
+     "justify": "center",
+     "m-element-margin": "0 0 16px 0"
+    },
+    "clickAction": "link"
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "linkedPageId": "cm2ndX9",
+   "initialElementId": "zyhS8z",
+   "fullResolutionWidth": 722,
+   "fullResolutionHeight": 496
+  },
+  "cmHomeTxt": {
+   "type": "GridTextBox",
+   "mobile": {
+    "top": 484,
+    "left": 0,
+    "width": 328,
+    "height": 48
+   },
+   "content": "<h3 dir=\"auto\" style=\"color: rgb(255, 255, 255); --lineHeightMobile: 1.3; --lineHeightDesktop: 1.5; --fontSizeMobile: 18px; --fontSizeDesktop: 22px;\"><span style=\"font-weight: 400;\">City Mine(d) - Belgium</span><br><span style=\"font-weight: 400;\">Application Deadline - 18/10/2026</span></h3>",
+   "desktop": {
+    "top": 325,
+    "left": 863,
+    "width": 361,
+    "height": 67
+   },
+   "settings": {
+    "styles": {
+     "text": "center",
+     "align": "flex-start",
+     "justify": "flex-start",
+     "m-element-margin": "0 0 16px 0"
+    }
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "backgroundColor": "rgba(255, 180, 74, 0.76)"
+  },
+  "cmCardImg": {
+   "rel": "",
+   "type": "GridImage",
+   "mobile": {
+    "top": 1820,
+    "left": 0,
+    "width": 328,
+    "height": 248
+   },
+   "desktop": {
+    "top": 152,
+    "left": 863,
+    "width": 361,
+    "height": 248,
+    "borderRadius": "8px"
+   },
+   "linkType": "page",
+   "settings": {
+    "alt": "City Mine(d), Brussels",
+    "path": "citymined-2026-card.jpg",
+    "origin": "assets",
+    "styles": {
+     "align": "center",
+     "justify": "center",
+     "m-element-margin": "0 0 16px 0"
+    },
+    "clickAction": "link"
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "linkedPageId": "cm2ndX9",
+   "initialElementId": "zyhS8z",
+   "fullResolutionWidth": 722,
+   "fullResolutionHeight": 496
+  },
+  "cmCardTxt": {
+   "type": "GridTextBox",
+   "mobile": {
+    "top": 1984,
+    "left": 0,
+    "width": 328,
+    "height": 48
+   },
+   "content": "<h3 dir=\"auto\" style=\"color: rgb(255, 255, 255); --lineHeightMobile: 1.3; --lineHeightDesktop: 1.5; --fontSizeMobile: 18px; --fontSizeDesktop: 22px;\"><span style=\"font-weight: 400;\">City Mine(d) - Belgium</span><br><span style=\"font-weight: 400;\">Application Deadline - 18/10/2026</span></h3>",
+   "desktop": {
+    "top": 333,
+    "left": 863,
+    "width": 361,
+    "height": 67
+   },
+   "settings": {
+    "styles": {
+     "text": "center",
+     "align": "flex-start",
+     "justify": "flex-start",
+     "m-element-margin": "0 0 16px 0"
+    }
+   },
+   "animation": {
+    "name": "slide",
+    "type": "global"
+   },
+   "backgroundColor": "rgba(255, 180, 74, 0.76)"
   }
  },
  "nav": [
@@ -15604,6 +16027,13 @@
    "subItems": [],
    "navItemId": "kibNav2",
    "linkedPageId": "kib2ndX9"
+  },
+  {
+   "isHidden": true,
+   "linkType": "Page",
+   "subItems": [],
+   "navItemId": "cmNav2",
+   "linkedPageId": "cm2ndX9"
   }
  ],
  "styles": {
