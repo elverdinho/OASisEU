@@ -3,6 +3,11 @@ name: Aggiorna le call scadute
 # Ogni mattina alle 05:30 UTC (07:30 in Italia). Il generatore confronta la
 # deadline di ogni card con la data del giorno: quelle scadute escono dalle
 # open call ed entrano in archivio, gia ordinate per data.
+#
+# Pubblica SOLO se il sito ricostruito e diverso da quello nel repo, e dopo
+# la pubblicazione salva il sito nel repo: cosi il giorno dopo non c e nulla
+# di nuovo e non si ripubblica. Prima pubblicava ogni giorno appena una call
+# era scaduta (ottobre 2026: 8 deploy di fila, ~15 crediti Netlify l uno).
 on:
   schedule:
     - cron: "30 5 * * *"
@@ -12,6 +17,9 @@ on:
         description: "Pubblica anche se nessuna call e scaduta (per provare il token)"
         type: boolean
         default: false
+
+permissions:
+  contents: write           # per salvare nel repo il sito pubblicato
 
 jobs:
   aggiorna:
@@ -29,9 +37,8 @@ jobs:
       - name: Ricostruisci il sito
         id: build
         run: |
-          uscita=$(python3 build.py)
-          echo "$uscita"
-          if echo "$uscita" | grep -q "call scadute"; then
+          python3 build.py
+          if [ -n "$(git status --porcelain -- site)" ]; then
             echo "cambiato=si" >> "$GITHUB_OUTPUT"
           else
             echo "cambiato=no" >> "$GITHUB_OUTPUT"
@@ -46,6 +53,15 @@ jobs:
             --site=b62e6fd3-d064-4e4d-8447-79c9f01ccb96 \
             --message "archiviazione automatica delle call scadute"
 
+      - name: Salva nel repo il sito pubblicato
+        if: steps.build.outputs.cambiato == 'si'
+        run: |
+          git config user.name "elverdinho"
+          git config user.email "lorenzoverde6@gmail.com"
+          git add site
+          git commit -m "Archiviazione automatica delle call scadute"
+          git push
+
       - name: Niente da fare
         if: steps.build.outputs.cambiato == 'no' && !inputs.pubblica_comunque
-        run: echo "Nessuna call scaduta oggi."
+        run: echo "Il sito non e cambiato: niente da pubblicare."
